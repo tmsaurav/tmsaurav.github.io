@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Candidate at UNSW Canberra
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Building 26, Room 108</p>
+    <p>UNSW Canberra</p>
+    <p>Northcott Drive, Australian Defence Force Academy</p>
+    <p>Canberra, Australia</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I graduated <em>magna cum laude</em> from Temple University with a B.S. in Mechanical Engineering in 2018. In the same year, I joined the Master of Philosophy (M.Phil.) program at The University of Melbourne where I worked on direct numerical simulation (DNS) of rough-wall turbulent flows using high performance computing. I completed my degree with an Outstanding H1 (First Class Honours, 91%) in 2021, and later joined the PhD program at UNSW Canberra in 2022. My current research focuses on developing numerical models to simulate ember storms in wildfires.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<em>Research interests: computational fluid dynamics, spectral element method, high performance computing, large-eddy simulation, bushfire modelling</em>
