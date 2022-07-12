@@ -1,11 +1,11 @@
 ---
 layout: page
 title: projects
-permalink: <!-- /projects/
- -->description: A growing collection of your cool projects.
-nav: false
-nav_order: 
-display_categories: [work, fun]
+permalink: /research/
+ -->description: Present and past research work.
+nav: true
+nav_order: 3 
+display_categories: 
 horizontal: false
 ---
 
