@@ -112,7 +112,7 @@ pagination:
 # Collections
 # -----------------------------------------------------------------------------
 
-#collections:
+collections:
   news:
     defaults:
       layout: post
