@@ -8,11 +8,6 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>Building 26, Room 108</p>
-    <p>UNSW Canberra</p>
-    <p>Northcott Drive, Australian Defence Force Academy</p>
-    <p>Canberra, Australia</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
