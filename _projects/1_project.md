@@ -2,7 +2,7 @@
 layout: page
 title: PhD Project
 description: Simulation of ember storms
-img: assets/img/12.jpg
+img: assets/img/dom.png
 importance: 1
 category: work
 ---
