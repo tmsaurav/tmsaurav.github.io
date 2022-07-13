@@ -1,80 +1,34 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: PhD Project
+description: Simulation of ember storms
 img: assets/img/12.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Embers have been identified as the leading cause of house loss in previous fire events. Near the wildland–urban interface (WUI), areas where structures and developments meet wildland, embers pose a greater risk as small ember particles can flow over roads and terrain into properties, increasing the likelihood of structure damage. Although recent computational works have provided a significant insight into ember transport, the current models do not capture the near-ground behaviour and transportation of embers, and the entrainment (the process through which near-ground particles are introduced into the flow) of embers from the ground, both of which are key factors in ember storms. This project aims to improve current ember modelling to capture near-ground entrainment and relofting by analysing and adapting existing particle transport models and applying them to model ember storms using large eddy simulation (LES) in Nek5000, a popular spectral element solver. The implementation of these models will help develop more robust simulation techniques. This will ensure that authorities are better equipped to deal with wildfires at the WUI and formulate better mitigation strategies.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/wui.png" title="WUI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    An example of a wildland-urban interface (WUI).
 </div>
+
+The project utilises computational fluid dynamics (CFD) as the primary tool. In CFD, fluid flow is simulated by numerically solving the mass, momentum, and energy conservation equations, collectively called the Navier-Stokes equations. There are three major CFD methods: direct numerical simulation (DNS), large eddy simulation (LES), and Reynolds-averaged Navier--Stokes (RANS). Because highly turbulent flows contain different scales of motion, it becomes computationally impossible to simulate large domain sizes (for example, atmospheric flows) using DNS. For such simulations, LES is a convenient method that captures the largest and more relevant scales of turbulent motion and accounts for the unresolved smaller scales using a turbulence dissipation model.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dom.png" title="domain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Schematic of a typical computational domain.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+In current computational studies, embers are generally modeled as Lagrangian particles in LES. The project will implement certain models which will be used to investigate the effects of a number of parameters on ember transport, such as, forest type as quantified by leaf area index and idealised buildings, represented by regular shapes with a height and separation distance. These parameters will be systematically varied to study how embers behave at the WUI and identify areas of heavy and light ember accumulation based on building parameters. A potential application of this research is to develop a RANS model of ember accumulation.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+WUI areas are rapidly growing; the fastest growing suburbs of Sydney, Canberra, and Hobart are on the wildland urban edges. The communities on the WUI must be resilient to bush fire hazards. This work will improve simulation of ember transport at an idealised WUI, with an eye towards future development of a reduced model of ember transport for risk management purposes. The knowledge gained from those simulations can then provide thresholds for the safe spacing between structures and potentially other mitigation measures within the WUI, thereby informing the development of safer WUI communities.
