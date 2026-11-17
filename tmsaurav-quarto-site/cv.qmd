@@ -1,0 +1,88 @@
+---
+title: "CV"
+---
+
+[Download CV (PDF)](files/CV_TSaurav.pdf){.btn .btn-outline-primary .btn-sm}
+
+## Education
+
+::: {.cv-entry}
+**Ph.D. in Mathematics & Statistics** [2026 (expected)]{.cv-date}\
+The University of New South Wales, Canberra, Australia
+
+- Advisors: Dr. Duncan Sutherland & Prof. Jason Sharples
+- Dissertation: Computational modelling of ember storms at the wildland-urban interface
+:::
+
+::: {.cv-entry}
+**M.Phil. in Mechanical Engineering** [2021]{.cv-date}\
+The University of Melbourne, Australia
+
+- Advisors: Dr. Daniel Chung & Prof. Nicholas Hutchins
+- Grade: 91/100, H1 (Outstanding First Class Honours)
+- Thesis: Effect of solidity on momentum and heat transfer of rough-wall turbulent flows
+:::
+
+::: {.cv-entry}
+**B.S. in Mechanical Engineering, *magna cum laude*** [2018]{.cv-date}\
+Temple University, Philadelphia, USA
+
+- GPA: 3.72/4.00 (Dean's List)
+:::
+
+## Experience
+
+::: {.cv-entry}
+**The University of New South Wales**, Canberra, Australia [2022 – present]{.cv-date}
+
+- Develop a computational model of ember storms at the wildland-urban interface
+- Perform large-eddy simulation (LES) on high performance computing clusters
+- Investigate the effects of weather and building parameters on ember storms
+:::
+
+::: {.cv-entry}
+**The University of Melbourne**, Melbourne, Australia [2018 – 2020]{.cv-date}
+
+- Developed roughness models using the volume-of-fluid (VOF) method
+- Performed direct numerical simulation (DNS) on high performance computing clusters
+- Investigated the effect of surface roughness on heat transfer in fluid flows
+:::
+
+::: {.cv-entry}
+**Temple University**, Philadelphia, USA [2015 – 2017]{.cv-date}
+
+- Prepared multiferroic samples for data collection
+- Maintained VSM and strain measurement systems
+- Compiled and analysed magnetostriction data
+:::
+
+## Teaching
+
+- Computational Problem Solving (ZPEM1307), UNSW
+- Engineering Mathematics 1A (ZPEM1303), UNSW
+- Engineering Mathematics 1B (ZPEM1304), UNSW
+- Engineering Mathematics 2A (ZPEM2309), UNSW
+- Physics 1A (ZPEM1501), UNSW
+- Math and Physics Student Support, Learning & Teaching Group, UNSW
+- Introduction to Engineering (ENGR1101), Temple University
+
+## Awards and honours
+
+| | |
+|---|---|
+| 2023 | Australian HPC-AI Talent Program Scholarship, NCI |
+| 2023 | Best Student Speaker, MODSIM2023, MSSANZ |
+| 2022 | University International Postgraduate Award, UNSW |
+| 2018 | Melbourne Research Scholarship, The University of Melbourne |
+| 2014 | Presidential Scholarship, Temple University |
+| 2014 | Honors Merit Scholarship, Temple University |
+
+: {.cv-table tbl-colwidths="[12,88]"}
+
+## Skills
+
+C/C++, Fortran, Python, MATLAB, Linux, LaTeX, Nek5000, Gmsh, Git, 2D/3D CAD, HPC, Google Earth Engine
+
+## Languages
+
+English, Bengali

@@ -1,0 +1,11 @@
+---
+title: "Notes"
+listing:
+  contents:
+    - "*.qmd"
+    - "*.ipynb"
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [date, title, description, categories]
+---

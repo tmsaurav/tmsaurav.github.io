@@ -1,0 +1,13 @@
+---
+title: "Research"
+listing:
+  contents:
+    - "*.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  fields: [image, title, description]
+  image-height: 220px
+---
+
+Projects I have worked on.

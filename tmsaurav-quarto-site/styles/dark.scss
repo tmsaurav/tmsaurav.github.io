@@ -1,0 +1,17 @@
+/*-- scss:defaults --*/
+$ember: #f08a5d !default;
+
+$primary: $ember !default;
+$body-bg: #16181c !default;
+$body-color: #e6e3de !default;
+$link-color: $ember !default;
+
+$navbar-bg: #16181c !default;
+$navbar-fg: #e6e3de !default;
+$navbar-hl: $ember !default;
+
+/*-- scss:rules --*/
+.quarto-grid-item {
+  background-color: #1d2025;
+  border-color: rgba(255, 255, 255, 0.12);
+}

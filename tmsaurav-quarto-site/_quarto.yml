@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "research/"
+    - "notes/"
+
+website:
+  title: "Tanvir M. Saurav"
+  description: "Bushfire hazard assessment, ember storm modelling and computational fluid dynamics."
+  site-url: https://tmsaurav.github.io
+  repo-url: https://github.com/tmsaurav/tmsaurav.github.io
+  open-graph: true
+  navbar:
+    right:
+      - text: About
+        href: index.qmd
+      - text: Research
+        href: research/index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      # Uncomment once the first note is published (see README).
+      # - text: Notes
+      #   href: notes/index.qmd
+  page-footer:
+    center: "© Tanvir M. Saurav · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/light.scss, styles/dark.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false

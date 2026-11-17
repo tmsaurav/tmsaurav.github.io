@@ -1,0 +1,47 @@
+---
+title: "Tanvir M. Saurav"
+subtitle: "Bushfire hazard assessment · UNSW"
+image: images/profile.jpeg
+image-alt: "Portrait of Tanvir M. Saurav"
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=jrwMOgsAAAAJ
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tanvirms
+    - icon: github
+      text: GitHub
+      href: https://github.com/tmsaurav
+    - icon: file-earmark-person
+      text: CV
+      href: cv.qmd
+---
+
+I work on bushfire hazard assessment with UNSW Bushfire. My background is in
+computational fluid dynamics: simulating turbulent flows on high performance
+computing clusters, first for heat transfer over rough surfaces and then for
+the ember storms that drive house loss in bushfires.
+
+My Ph.D. research at UNSW Canberra is on computational modelling of ember
+storms at the wildland-urban interface, using large-eddy simulation with
+Lagrangian particles. Before that I completed an M.Phil. in Mechanical
+Engineering at The University of Melbourne (2021, First Class Honours), where
+I used direct numerical simulation to study momentum and heat transfer in
+rough-wall turbulent flows. I graduated *magna cum laude* from Temple
+University with a B.S. in Mechanical Engineering in 2018.
+
+## Interests
+
+Bushfire modelling · computational fluid dynamics · large-eddy simulation ·
+spectral element method · high performance computing
+
+## Selected work
+
+- [Simulation of ember storms](research/ember-storms.qmd), my Ph.D. project
+- [Heat transfer over rough walls](research/rough-wall-heat-transfer.qmd), my M.Phil. project
+- [Publications](publications.qmd)

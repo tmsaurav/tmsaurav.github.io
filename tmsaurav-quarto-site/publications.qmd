@@ -1,0 +1,31 @@
+---
+title: "Publications"
+---
+
+An up-to-date list is on [Google Scholar](https://scholar.google.com/citations?user=jrwMOgsAAAAJ).
+
+::: {.pub-list}
+
+**2024**
+
+- M Rajamuni, **T Saurav**, D Sutherland, J Sharples. Canopy edge effects on ember storm dynamics. *24th Australasian Fluid Mechanics Conference (AFMC2024)*.
+- WA Rowin, K Zhong, **T Saurav**, T Jelly, N Hutchins, D Chung. Modelling the effect of roughness density on turbulent forced convection. *Journal of Fluid Mechanics*.
+
+**2023**
+
+- **TM Saurav**, D Sutherland, J Sharples. A computational framework for phenomenological modelling of ember storms at the wildland-urban interface. *25th International Congress on Modelling and Simulation (MODSIM2023)*.
+
+**2022**
+
+- K Zhong, W Rowin, **T Saurav**, T Jelly, N Hutchins, D Chung. The influence of frontal solidity on fully rough heat transfer modeled through an exposed and sheltered flow dichotomy. *75th Annual Meeting of the APS Division of Fluid Dynamics*.
+- WA Rowin, **TM Saurav**, TO Jelly, N Hutchins, D Chung. Turbulent forced convection over roughness with different heights and densities. *12th Australasian Heat and Mass Transfer Conference (12AHMTC)*.
+
+**2020**
+
+- **TM Saurav**. [Effect of solidity on momentum and heat transfer of rough-wall turbulent flows](http://hdl.handle.net/11343/267999). M.Phil. Thesis, The University of Melbourne.
+
+**2017**
+
+- **TM Saurav**, ML Forst, JA Boligitz, HD Chopra. Contracting non-Joulian magnets. *Physical Review B*.
+
+:::

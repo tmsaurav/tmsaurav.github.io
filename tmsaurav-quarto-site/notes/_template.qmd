@@ -1,0 +1,20 @@
+---
+title: "Post title"
+description: "One line shown in the Notes listing."
+date: 2026-11-17
+categories: [gis]
+# Code cells run on your machine when you render; results are stored in
+# _freeze/ so the GitHub build does not need Python installed.
+execute:
+  freeze: auto
+---
+
+Copy this file to `notes/my-post.qmd` (no leading underscore) and write in
+Markdown. Files starting with `_` are ignored by Quarto.
+
+```{python}
+#| eval: false
+import geopandas as gpd
+gdf = gpd.read_file("data/extent.gpkg")
+gdf.explore()   # interactive map embedded in the page
+```
